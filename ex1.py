@@ -4,10 +4,10 @@ if x >= 1 and x <= 3:
     n = int(raw_input('Please, give a multiplier: '))
     for n in s:
         print s
-if x >= 4 and x <= 6:
+elif x >= 4 and x <= 6:
     m = int(raw_input('Please, give a power of number: '))
     print(x ** m)
-if x >= 7 and x <= 9:
+elif x >= 7 and x <= 9:
     for k in range(x, x+10):
         k += 1
         print k
